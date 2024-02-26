@@ -11,34 +11,25 @@
 </head>
 <body>
 <div class="container">
-  <h2>User Registration</h2>
-  <form action="./includes/action.inc.php" method="post">
-    <div class="message">
-      <?php
-        echo isset($message) ? $message : '';
-      ?>
-    </div>
+  <h2>User Login</h2>
+  <form action="./includes/allow.inc.php" method="post">
+
     <div class="error">
               <?php 
                 echo isset($error) ? $error : '';
               ?>
-
-    </div>
-    <div class="form-group">
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username" required>
     </div>
     <div class="form-group">
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
+      <input type="text" id="email" name="email" required>
     </div>
     <div class="form-group">
       <label for="password">Password:</label>
       <input type="password" id="password" name="password" required>
     </div>
-    <button type="submit" class="btn" name="submit">Register</button>
+    <button type="submit" class="btn" name="submit">Login</button>
     <div class="form-group">
-      <a href="./login.php">Already have an account! Login</a>
+      <a href="./index.php">Don't have an account! Register</a>
     </div>
   </form>
 </div>

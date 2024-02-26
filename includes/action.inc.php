@@ -7,7 +7,6 @@
     $username = $_POST['username'];
     $email = $_POST['email'];
     $password = $_POST['password'];
-    
 
     $checkUser = mysqli_query($connect, "SELECT * FROM users WHERE username='$username' OR email='$email' ");
     

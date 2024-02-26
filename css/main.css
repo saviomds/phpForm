@@ -23,6 +23,7 @@ body {
 
   .form-group {
     margin-bottom: 20px;
+    padding: 10px 90px 10px 10px;
   }
 
   .form-group label {
@@ -32,7 +33,7 @@ body {
   }
 
   .form-group input {
-    width: 100%;
+    width: 140%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
